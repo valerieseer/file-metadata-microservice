@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <title>File metadata microservice</title>
+  </head>
+  <body>
+    <h1>Upload an image to check its size</h1>
+    <form id="user-image-from" enctype="multipart/form-data" action="/image-size" method="post">
+      <input type="file" name="user-image" />
+      <input type="submit" value="Upload Image" name="submit">
+    </form>
+  </body>
+</html>

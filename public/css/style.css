@@ -1,0 +1,10 @@
+body {
+  text-align: center;
+  font-family: Helvetica;
+  padding: 60px 0;
+}
+
+form {
+  width: 70%;
+  margin: 0 auto;
+}
